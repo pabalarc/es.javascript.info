@@ -221,7 +221,7 @@ Para encontrar todas las etiquetas `input` dentro de una tabla:
 ```warn header="¡No olvides la letra `\"s\"`!"
 Los desarrolladores novatos a veces olvidan la letra `"s"`. Esto es, intentan llamar a `getElementByTagName` en vez de a <code>getElement<b>s</b>ByTagName</code>.
 
-La letra `"s"` no se encuentra en `getElementById` porque devuelve sólo un elemento. But `getElementsByTagName` devuelve una colección de elementos, de ahí que tenga la `"s"`.
+La letra `"s"` no se encuentra en `getElementById` porque devuelve sólo un elemento. Pero `getElementsByTagName` devuelve una colección de elementos, de ahí que tenga la `"s"`.
 ```
 
 ````warn header="¡Devuelve una colección, no un elemento!"
